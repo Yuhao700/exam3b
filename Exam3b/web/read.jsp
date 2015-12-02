@@ -1,14 +1,18 @@
 
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Customers Database</title>
         <link rel="stylesheet" type="text/css" href="Styling.css"/>
-        <title>Badminton Club</title>
     </head>
+    
+    <% String table = (String) request.getAttribute("table"); %>
+    
     <body>
-        <div class="wrap">
+         <div class="wrap">
             
 
         
@@ -20,16 +24,14 @@
         
         <div class="main">
         <h1>Customers Database</h1>
+        <%= table %>
         
-        <a href="read">View All Customer</a>
-        <br>
+        <br><br>
+        <a href ="add">Add a New Customer</a>
+        <br><br>
         <a href="search.jsp">Search</a>
         </div>
-        
-
-        
         <%@ include file="includes/footer.jsp" %>
-        
         </div>
     </body>
 </html>
