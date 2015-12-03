@@ -3,6 +3,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
+    <%@ include file="includes/searchbar.jsp" %>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Customers Database</title>
@@ -18,6 +19,8 @@
         
             <%@ include file="includes/header.jsp" %>
             
+
+            
             <%@ include file="includes/menu.jsp" %>
             
             
@@ -29,7 +32,6 @@
         <br><br>
         <a href ="add">Add a New Customer</a>
         <br><br>
-        <a href="search.jsp">Search</a>
         </div>
         <%@ include file="includes/footer.jsp" %>
         </div>

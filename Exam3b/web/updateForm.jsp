@@ -3,6 +3,7 @@
 <% Customer member = (Customer) request.getAttribute("member"); %>
 <!DOCTYPE html>
 <html>
+    <%@ include file="includes/searchbar.jsp" %>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
          <title>Update A Member Information</title>
@@ -14,6 +15,8 @@
 
         
             <%@ include file="includes/header.jsp" %>
+            
+
             
             <%@ include file="includes/menu.jsp" %>
             

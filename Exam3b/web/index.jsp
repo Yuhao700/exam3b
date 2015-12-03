@@ -2,6 +2,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
+    <%@ include file="includes/searchbar.jsp" %>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" type="text/css" href="Styling.css"/>
@@ -14,6 +15,7 @@
         
             <%@ include file="includes/header.jsp" %>
             
+            
             <%@ include file="includes/menu.jsp" %>
             
             
@@ -23,13 +25,9 @@
         
         <a href="read">View All Customer</a>
         <br>
-        <a href="search.jsp">Search</a>
+        
+        
         </div>
-        
-
-        
         <%@ include file="includes/footer.jsp" %>
-        
-        </div>
     </body>
 </html>

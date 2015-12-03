@@ -1,27 +1,30 @@
-body{background-color: #D2B48C; font-size: 18px;}
+body{background-color: #feff00; font-size: 18px;}
 
-h1{color: white; font-weight: bold; font-size: 28px;}
+h1{color: black; font-weight: bold; font-size: 28px;}
 
-table, td, tr {margin-left: auto; margin-right: auto; font-size: 18px; color: #FFFFFF; border: 1px solid white; background-color: #F08080;}
+table, td, tr {margin-left: auto; margin-right: auto; font-size: 18px; color: #feff00; border: 1px solid white; background-color: black;}
 
-th {margin-left: auto; margin-right: auto; font-size: 18px; color: #696969; border: 1px solid white; background-color: #FFFF99;}
+th {margin-left: auto; margin-right: auto; font-size: 18px; color: white; border: 1px solid white; background-color: black;}
 
-a {color: #696969;}
+a {color: white;}
 
 .Display{background-color: white; color: black;}
 
-.wrap{ width:90%; margin: 0 auto; border: 1px solid black; margin-top:25px;}
+.wrap{ width:90%; border: 1px solid black; margin-top:25px;}
 
-.header{background-color:tan; text-align:left; padding:25px; }
+.header{background-color:#feff00; text-align: left; padding:25px; }
 
-.main{text-aligin:left; padding:25px; }
+.main{padding:25px; }
 
-.footer{text-aligin:left; padding:25px; }
+.footer{text-align: center; padding:25px; }
 
 .headerImg{float:left; width:100px;}
 
 .headerText{float:left; height:75px; padding-top:25px; padding-left:25px;}
 
+.Searchbar{width: 500px;}
+
+.Search{margin: 0 auto;}
 
 .navcontainer { margin-left: 30px; }
 
