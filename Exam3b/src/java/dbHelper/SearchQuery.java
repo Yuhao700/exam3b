@@ -55,7 +55,7 @@ public class SearchQuery {
     
     public void doSearch(String firstName){
         try {
-            String query = "SELECT * FROM customers WHERE firstname LIKE ? or yuhcalastname LIKE ?";
+            String query = "SELECT * FROM customers WHERE firstname LIKE ? or lastname LIKE ?";
             
             PreparedStatement ps = conn.prepareStatement(query);
             ps.setString(1, "%" + firstName + "%");
